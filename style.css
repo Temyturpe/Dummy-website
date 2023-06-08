@@ -6,7 +6,6 @@
 }
 body{
     max-width: 100%;
-    padding-bottom: 400px;
 }
 /* topbar */
 .top-bar{
@@ -102,4 +101,112 @@ body{
 .bigside-text2, .smallside-text2{
   font-size: 20px;
   margin-left: 20px;
+}
+
+.section-3{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    padding: 30px 60px;
+}
+.leftside{
+    width: 50%;
+    height: 540px;
+}
+.rightside{
+    width: 50%;
+    height: 540px;
+    position: relative;
+}
+.title-box{
+    position: relative;
+}
+.section3-title{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 36px;
+}
+.parag{
+    margin-top: 50px;
+    font-size: 28px;
+}
+.btn{
+    margin-top: 80px;
+}
+.sec-btn{
+    font-size: 24px;
+    background-color: #6ABBE9;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 50px;
+}
+.redbox{
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.yellowbox{
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.rightimg{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 480px;
+    height: 500px;
+}
+
+footer{
+    background-color: #26319A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 40px;
+}
+.footer-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   width: 100%;
+}
+.everything{
+    font-size: 20px;
+}
+.address{
+    font-size: 37px;
+}
+.icons{
+   display: flex; 
+   align-items: center;
+   gap: 20px;
+   list-style: none;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.copyright{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.empty{
+    width: 100%;
+    height: 2px;
+    padding: 1px;
+    background-color: #A5A5A5;
+}
+.copytext{
+    width: 100%;
 }
